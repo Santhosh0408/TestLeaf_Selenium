@@ -1,0 +1,24 @@
+package week1.day1;
+
+public class Mobile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String mobileBrandName = "SAMSUNG";
+		char mobileLogo = '$';
+		short noOfMobilePiece = 1;
+		int modelNumber = 1100;
+		long mobileImeiNumber = 876543219012387L;
+		float mobilePrice = 19999.99f;
+		boolean isDamaged = false;
+		
+		System.out.println(mobileBrandName);
+		System.out.println(mobileLogo);
+		System.out.println(noOfMobilePiece);
+		System.out.println(modelNumber);
+		System.out.println(mobileImeiNumber);
+		System.out.println(mobilePrice);
+		System.out.println(isDamaged);
+
+	}
+}
